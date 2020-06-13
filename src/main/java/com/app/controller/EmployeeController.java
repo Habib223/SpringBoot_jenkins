@@ -12,4 +12,13 @@ public class EmployeeController {
 		return "Welcome to Spring boot application";
 	}
 	
+	
+	
+	@RequestMapping("/test")
+	public String test()
+	{
+		return "Welcome to Test method calling";
+	}
+	
+	
 }
